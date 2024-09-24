@@ -1,1 +1,4 @@
-# Autoencoder
+# Autoencoder on Fashion MNIST                                                                                                             
+In this project, I used the Fashion-MNIST dataset, consisting of 70,000 images across 10 classes. The objective was to build an efficient autoencoder model with minimal loss.
+Results: During the data cleaning phase, I used regularization techniques such as dropout and batch normalization. To improve results, I employed Mean Squared Error (MSE) as the loss function, which significantly reduced the loss to 0.0098 on the validation set, yielding excellent results. I experimented with various activation functions and optimizers, ultimately finding that the change to MSE as the loss function provided the best outcomes. Both academic reasoning and practical experimentation guided my hyperparameter tuning.
+
